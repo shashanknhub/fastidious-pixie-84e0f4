@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shashank N. | Web Development Intern</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Inter:wght@400;500&display=swap">
+<style>
+:root{--bg:#eef2f7;--surface:#fff;--ink:#14213d;--muted:#55627a;--line:#cfd8e6;--accent:#2f5bff;--accent-ink:#fff;--hi:#ffd166;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1424;--surface:#161e33;--ink:#eaf0ff;--muted:#9aa8c6;--line:#27324f;--accent:#7b97ff;--accent-ink:#0e1424;--hi:#ffd166}}
+:root[data-theme="dark"]{--bg:#0e1424;--surface:#161e33;--ink:#eaf0ff;--muted:#9aa8c6;--line:#27324f;--accent:#7b97ff;--accent-ink:#0e1424;--hi:#ffd166}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Inter,system-ui,sans-serif}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:960px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:20px;justify-content:flex-end;padding:20px 0;font-weight:500;flex-wrap:wrap}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--accent)}
+.hero{padding:56px 0 72px}
+h1{font:800 clamp(3.2rem,12vw,8rem)/.95 "Bricolage Grotesque",Inter,sans-serif;margin:0;letter-spacing:-.03em}
+h1 span{background:linear-gradient(transparent 62%,var(--hi) 62%)}
+.role{font:500 clamp(1.1rem,2.6vw,1.5rem)/1.4 "Bricolage Grotesque",Inter,sans-serif;margin:24px 0 8px}
+.sub{color:var(--muted);max-width:52ch;margin:0 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:500;border:2px solid var(--accent)}
+.btn.p{background:var(--accent);color:var(--accent-ink)}
+.btn:hover{transform:translateY(-2px)}
+section{display:grid;grid-template-columns:200px 1fr;gap:24px 48px;padding:48px 0;border-top:2px solid var(--line)}
+h2{font:800 1.6rem "Bricolage Grotesque",Inter,sans-serif;margin:0;letter-spacing:-.01em}
+.proj{background:var(--surface);border:2px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:16px}
+.proj h3{margin:0 0 6px;font:800 1.2rem "Bricolage Grotesque",Inter,sans-serif}
+.proj p{margin:0;color:var(--muted)}
+.skills{display:grid;gap:18px;margin:0}
+.skills dt{font-weight:500;margin-bottom:6px}
+.skills dd{margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:5px 14px;border-radius:999px;background:var(--surface);border:2px solid var(--line);font-size:.95rem}
+.edu h3{margin:0;font:800 1.2rem "Bricolage Grotesque",Inter,sans-serif}
+.edu p{margin:4px 0 0;color:var(--muted)}
+.gpa{display:inline-block;margin-top:12px;padding:4px 14px;border-radius:8px;background:var(--hi);color:#14213d;font-weight:500}
+ul.certs{list-style:none;margin:0;padding:0}
+ul.certs li{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:12px 0;border-bottom:1px solid var(--line)}
+ul.certs li span{color:var(--muted)}
+.contact a{font:800 clamp(1.3rem,4vw,2rem) "Bricolage Grotesque",Inter,sans-serif;word-break:break-all}
+.contact p{margin:8px 0}
+footer{padding:32px 0 48px;color:var(--muted);font-size:.9rem;border-top:2px solid var(--line)}
+@media(max-width:700px){section{grid-template-columns:1fr}nav{justify-content:flex-start}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn:hover{transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+<h1>Shashank <span>N.</span></h1>
+<p class="role">Web development intern and Computer Science student</p>
+<p class="sub">Fast learner with broad curiosity, building projects in AI and web development.</p>
+<div class="btns"><a class="btn p" href="#projects">See my projects</a><a class="btn" href="#contact">Get in touch</a></div>
+</header>
+
+<section id="projects"><h2>Projects</h2><div>
+<article class="proj"><h3>AI Recommendation Engine for PM Internship Scheme</h3><p>An AI-based recommendation engine built for the PM Internship Scheme.</p></article>
+<article class="proj"><h3>Women’s Safety Website</h3><p>A website project focused on women’s safety.</p></article>
+</div></section>
+
+<section id="skills"><h2>Skills</h2>
+<dl class="skills">
+<div><dt>Programming</dt><dd><span class="chip">Python</span><span class="chip">C</span><span class="chip">C++</span><span class="chip">Java</span></dd></div>
+<div><dt>Data</dt><dd><span class="chip">Data Analysis</span></dd></div>
+<div><dt>Business and digital</dt><dd><span class="chip">Business Analysis</span><span class="chip">Social Media &amp; Digital Marketing</span></dd></div>
+<div><dt>Additional</dt><dd><span class="chip">Prompt Engineering</span></dd></div>
+</dl></section>
+
+<section id="education"><h2>Education</h2>
+<div class="edu"><h3>B.E. in Computer Science and Engineering</h3><p>Bangalore Institute of Technology</p><p>3rd year, graduating in 2028</p><span class="gpa">CGPA 8.2</span></div></section>
+
+<section id="certifications"><h2>Certifications</h2>
+<ul class="certs">
+<li>C Programming <span>Infosys Springboard</span></li>
+<li>Social Media &amp; Digital Marketing <span>Accenture</span></li>
+<li>Data Analytics <span>Google</span></li>
+<li>Prompt Engineering for Everyone <span>Cisco</span></li>
+<li>Data Analysis <span>Google</span></li>
+</ul></section>
+
+<section id="interests"><h2>Interests</h2><div>
+<p style="margin-top:0">Outside of code, I enjoy:</p>
+<div class="skills"><dd style="display:flex;flex-wrap:wrap;gap:8px;margin:0"><span class="chip">Cycling</span><span class="chip">Fitness and sports</span><span class="chip">Content creation</span><span class="chip">Video editing</span><span class="chip">Problem-solving</span><span class="chip">Analytical thinking</span><span class="chip">Group activities</span></dd></div>
+</div></section>
+
+<section id="contact" class="contact"><h2>Contact</h2><div>
+<p>Open to web development internships. Reach me at:</p>
+<p><a href="mailto:shashank3126@gmail.com">shashank3126@gmail.com</a></p>
+<p><a href="tel:+919480086715">+91 9480086715</a></p>
+</div></section>
+
+<footer>© Shashank N.</footer>
+</div>
+</body>
+</html>
